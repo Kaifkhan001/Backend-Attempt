@@ -28,9 +28,9 @@ const userSchema = new Schema({
         type: String,  // cloudinary url
         required: true,
     },
-    coverImage: {
-      type: String, //cloudinary url
-    },
+    // coverImage: {
+    //   type: String, //cloudinary url
+    // },
     watchHistory: [
         {
             type: mongoose.Schema.Types.ObjectId,

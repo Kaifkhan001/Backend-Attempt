@@ -15,7 +15,7 @@ import registerUser from './controllers/user.controllers.js';
 //routes declaration
 // app.use("/api/v1/users", userRouter);
 
-app.use("/api/v1/register", registerUser);
+app.use("/api/v1/users", userRouter);
 
 
 export {app}
